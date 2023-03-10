@@ -35,12 +35,23 @@
     .inner-menu{
         display:none;
     }
+    .section-7-decoration::after {
+  display: none;
+    }
 }
 /* section-1 */
 .section-one{
     position: relative;
     background: url(../images/banner-bg.png);
     padding-top:200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center center;
+    height: 100vh;
+}
+.section-one-b{
+    margin-top:-170px;
 }
 .section-1-title{
    font-weight: 500;
@@ -99,6 +110,7 @@
     padding: 30px;
     text-align: center;
     position: relative;
+    z-index: 50;
     margin-bottom: 30px;
 }
 .button{
@@ -213,6 +225,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    transition: all 0.3s ease 0s;
+}
+.section-4-badge:hover{
+    margin-top:-15px;
 }
 .section-4-badge strong{
     display: block;
@@ -474,6 +490,9 @@ li{
 /* section-8 */
 .section-eight{
     padding: 100px 0px;
+}
+.section-8-imgg{
+    margin-bottom: 30px;
 }
 .section-8-img img{
     width:100%;
