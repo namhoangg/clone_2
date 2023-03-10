@@ -38,6 +38,9 @@
     .section-7-decoration::after {
   display: none;
     }
+    .section-one{
+        margin-bottom: 170px;
+    }
 }
 /* section-1 */
 .section-one{
