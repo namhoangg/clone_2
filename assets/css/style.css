@@ -41,6 +41,9 @@
     .section-one{
         margin-bottom: 170px;
     }
+    .section-one{
+        height: auto;
+    }
 }
 /* section-1 */
 .section-one{
