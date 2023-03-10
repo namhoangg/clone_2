@@ -178,7 +178,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-image: url(/project2/assets/images/work-process-bg.png);
+    background-image: url(../images/work-process-bg.png);
     z-index: 2;
     top: -20%;
     left: -20%;
@@ -423,7 +423,7 @@ li{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-image: url(/project2/assets/images/fun-facts-bg.png);
+    background-image: url(../images/fun-facts-bg.png);
     z-index: 2;
     top: -20%;
     left: -20%;
@@ -439,7 +439,7 @@ li{
     top:10px;
     height: 32px;
     left: 70%;
-    background: url(/project2/assets/images/circle-dec.png) center center no-repeat;
+    background: url(../images/circle-dec.png) center center no-repeat;
 }
 .section-7-decoration{
     position: relative;
