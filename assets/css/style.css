@@ -16,6 +16,26 @@
     min-height: 80px;
     background: #fff;
 }
+.navbar{
+    padding:0px;
+}
+.navbar-brand{
+    margin:0px;
+    padding-left:15px;
+}
+.menu-mobi{
+    display: none;
+}
+@media (max-width:991.98px){
+    .menu-mobi{
+        display: block;
+        padding-right:20px;
+        font-size: 30px;
+    }
+    .inner-menu{
+        display:none;
+    }
+}
 /* section-1 */
 .section-one{
     position: relative;
